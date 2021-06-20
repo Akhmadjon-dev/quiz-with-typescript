@@ -4,7 +4,10 @@ import React from 'react';
 function App() {
   return (
     <div className="quiz">
-      Quiz
+      Quiz 
+
+
+
     </div>
   );
 }
