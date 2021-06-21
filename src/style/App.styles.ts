@@ -54,7 +54,6 @@ export const Wrapper = styled.div`
   .quiz__title {
     font-family: FasCinate Impact, Haettenschweiler, "Arial Narrow Bold",
       sans-serif;
-    /* background-image: linear-gradient(180deg, #fff, #87f1ff); */
     background-size: 100%;
     background-clip: text;
     color: #fff;
