@@ -62,4 +62,16 @@ export const Wrapper = styled.div`
     text-align: center;
     margin: 20px;
   }
+
+  .quiz__start,.quiz__next{
+      cursor: pointer;
+      border: 2px solid ;
+      border-radius: 10px;
+      height: 40px;
+      margin: 20px 0;
+      padding: 0 40px;
+  }
+  .quiz__start{
+      max-width: 200px
+  }
 `;
