@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
     border: 2px solid #0085a3;
     padding: 20px;
     text-align: center;
+    color: #333;
 
     p{
         font-size: 1rem;
@@ -32,17 +33,21 @@ export const ButtonWrapper = styled.div<ButtonWrapperProps>`
         width: 100%;
         height: 40px;
         margin: 5px 0;
-        background: ${({correct, userClicked})=>
-            correct ?
-                'linear-gradient(90deg, #56ffa4, #59bc86)'
-                : !correct && userClicked
-                ? 'linear-gradient(90deb, #ff5656, #c16868)'
-                :'linear-gradient(90deb, #56ccff, #6eafb4)'
+        background: ${({correct, userClicked}) =>
+            (correct ?
+                'aquamarine'
+                : 
+                !correct && userClicked
+                ? 
+                "#f41c03a3"
+                : 
+                "#eaefee73"
+                )
         };
         border: 3px solid #fff;
         box-shadow: 1px 2px 0px rgba(0,0,0,0.1);
         border-radius: 10px;
-        color: #fff;
+        color: #333;
 
     }
 `
