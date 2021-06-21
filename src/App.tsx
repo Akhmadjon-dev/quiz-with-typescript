@@ -60,7 +60,6 @@ const App = () => {
 
   const nextQuestion = () => {
     //move on if next exists
-
     if (number + 1 === TOTAL_QUESTIONS) {
       setGameOver(true);
     } else {
@@ -72,7 +71,7 @@ const App = () => {
     <div className="quiz">
       <GlobalStyle />
 
-      <Wrapper >
+      <Wrapper>
         <h1 className="quiz__title">MyQuiz</h1>
         {gameOver || userAnswers.length === TOTAL_QUESTIONS ? (
           <button onClick={startTrivia} className="quiz__start">
